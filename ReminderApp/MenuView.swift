@@ -15,7 +15,7 @@ struct MenuView: View {
     
     var body: some View {
         VStack {
-            HStack {
+            HStack { 
                 Image(systemName: image)
                 Spacer()
                 Text(count).bold()

@@ -14,7 +14,7 @@ struct SearchBar: View {
         
         HStack {
             Image(systemName: "magnifyingglass").foregroundColor(.gray)
-            TextField ("Search", text: $text).font(.callout)
+            TextField ("Search", text: $text).font(.callout).accessibilityIdentifier("Searchbar")
         }.padding(4)
             .background(Color.gray.opacity(0.1))
             .cornerRadius(8.0)
